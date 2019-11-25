@@ -33,8 +33,6 @@ func main() {
         return nil
     })
 
-    for {
-        time.Sleep(time.Second *100)
-    }
-
+    time.Sleep(time.Second *100)
+    mq.RabbitService.Close()
 }
