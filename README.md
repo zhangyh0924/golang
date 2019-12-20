@@ -1,1 +1,1 @@
-# golang
+rabbitmq封装了rabbitmq 的连接池，有兴趣的可以看下
